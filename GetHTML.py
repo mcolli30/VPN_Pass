@@ -6,7 +6,8 @@ Then call
 
 def GetSource( site ):
     import requests
-    webpage = requests.get(site)
+    source = site
+    webpage = requests.get(source)
     htmlsource = webpage.text
     
     return htmlsource
