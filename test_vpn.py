@@ -2,6 +2,6 @@
 
 import VPNpass
 
-testpass = VPNpass.GetFreeVPNPass()
+testpass = VPNpass.GetFreeVPNPass(se)
 
 print(testpass)
